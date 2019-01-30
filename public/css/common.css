@@ -1,0 +1,73 @@
+body {
+	font: 12px sans-serif;
+}
+
+div {
+    padding: 2px;
+}
+
+#fileList {
+    width: 500px;
+    height: 200px;
+    border: 1px gray solid;
+    overflow: auto;
+}
+
+#statusList {
+    width: 500px;
+    height: 200px;
+    border: 1px gray solid;
+    overflow: auto;
+}
+
+#eventList {
+    width: 500px;
+    height: 400px;
+    border: 1px gray solid;
+    overflow: auto;
+}
+
+#debugPane {
+    width: 500px;
+    height: 200px;
+    border: 1px gray solid;
+    overflow: auto;
+	display: none;
+}
+
+#videoElement {
+    // width: 640px;
+    // height: 480px;
+    width: 500px;
+    height: 284px;
+    border: 1px gray solid;
+}
+
+.debugPane {
+    width: 496px;
+    height: 200px;
+    border: 1px gray solid;
+    overflow: auto;
+	display: none;
+}
+
+.videoElement {
+    width: 500px;
+    height: 284px;
+    border: 1px gray solid;
+	object-fit: fill;
+}
+
+.borderDiv {
+	border: 1px gray solid;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    white-space:normal !important;
+    word-wrap: break-word;
+}
